@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Doraemon</title>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+</head>
+<body>
+    <a-scene  background="color:#000000">
+        <a-sphere position="0 2 -5" radius="1.8" color="blue"></a-sphere>
+        <a-cylinder position="-0.4 1 -5" radius="0.3" color="blue" scale="1 4"></a-cylinder>
+        <a-cylinder position="0.4 1 -5" radius="0.3" color="blue" scale="1 4"></a-cylinder>
+        <a-circle position="0 1.8 -3.2" color="white" radius="0.8"></a-circle>
+        <!-- <a-ring position="0 3 -4" color="red" scale="2 0.2 2"></a-ring> -->
+        <a-sphere position="0 1.9 -1" color="yellow" radius="0.06"></a-sphere>
+        <a-sphere position="0 3 -5" radius="1.7" color="blue" rotation="40"></a-sphere>
+        <!-- <a-torus color="red" rotation="90 0 0"radius = "1" radius-tubular="0.015" segments-tubular="1000" position="2 2 -4"></a-torus> -->
+        <a-cylinder position="2 2 -5" scale="1 3" radius="0.3" rotation="-49 30" color="blue"></a-cylinder>
+        <a-cylinder position="-2 2 -5" scale="1 3" radius="0.3" rotation="-49 -30" color="blue"></a-cylinder>
+        <!-- <a-cylinder position="0 4 -5" scale="0.5 1.6"></a-cylinder> -->
+        <a-circle position="-0.3 2.7 -2" color="#ffff" radius="0.12"></a-circle>
+        <a-circle position="0.3 2.7 -2" color="#ffff" radius="0.12"></a-circle>
+        <a-circle position="-0.3 2.6 -1.8" color="black" radius="0.05" animation="property:rotation;to:0 50 0;easying:; loop:true; dur:7000;"></a-circle>
+        <a-circle position="0.3 2.6 -1.8" color="black" radius="0.05" animation="property:;to:0 50 0 ;easying:; loop:true; dur:7000;"></a-circle>        
+        <a-sphere position="0 2.4 -1.8" color="red" radius="0.06"></a-sphere>
+        <a-box position="-1.9 1.2 -3" src="bre.png" width="0.4" height="0.7" rotation="4 7 1 " scale="1 1 0"></a-box>
+        <a-box position="1.9 1.2 -3" src="bre.png" width="0.4" height="0.7" rotation="4 7 1 " scale="1 1 0"></a-box>
+
+        <a-cylinder position="0 3.8 -3.1" scale="0.04 0.2 0.07" color="yellow"></a-cylinder>
+        <a-box position="0 4.7 -4" color="yellow" width="2" height="0.1" scale="0.4 0.4 0.4" animation="property:rotation;to:0 360 0 ;easying:; loop:true; dur:5000;"></a-box>
+    </a-scene>
+    
+</body>
+</html>
